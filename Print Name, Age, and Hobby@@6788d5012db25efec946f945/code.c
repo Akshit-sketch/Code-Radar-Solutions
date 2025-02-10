@@ -3,7 +3,7 @@
 int main(){
     char str[1000000];
     int age;
-    char hobby[100000000];
+    char hobby[10000];
 
     scanf("%s",str);
     scanf("%d",&age);
