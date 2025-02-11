@@ -7,10 +7,10 @@ scanf("%d",&num1);
 scanf("%d",&num2);
 
 if (num1!=num2){
-    printf("False");
+    printf("True");
 }
 else{
-    printf("True");
+    printf("False");
 }
 return 0;
 }
