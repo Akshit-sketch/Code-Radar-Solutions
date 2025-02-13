@@ -5,8 +5,9 @@ int main(){
     int num,msb;
 
     scanf("%d",&num);
-    msb= 1<<(BITS-1);
-    if (num & msb){
+
+    msb = 1 << (BITS-1);
+    if(num & msb = 1){
         printf("Set");
     }
     else{
