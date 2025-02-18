@@ -5,19 +5,19 @@ int main(){
 
     switch (day){
         case1 : printf("Monday");
-        break;
+            break;
         case2 : printf("Tuesday");
-        break;
+            break;
         case3 : printf("Wednesday");
-        break;
+            break;
         case4 : printf("Thursday");
-        break;
+            break;
         case5 : printf("Friday");
-        break;
+            break;
         case6 : printf("Saturday");
-        break;
+            break;
         case7 : printf("Sunday");
-        break;
+            break;
         default : printf("Invalid");
     }
     return 0;
