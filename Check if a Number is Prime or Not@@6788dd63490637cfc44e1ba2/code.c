@@ -5,7 +5,7 @@ int main(){
 
     for (int i = 1; i <= num;i++){
         if(i % num == 0){
-            count+=1;
+            count++;
         }
     }
     if(count == 2){
