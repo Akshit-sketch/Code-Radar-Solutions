@@ -1,13 +1,10 @@
 # include <stdio.h>
-# define BITS sizeof(int)*8
 
 int main(){
-    int num,msb;
-
+    int num;
     scanf("%d",&num);
 
-    msb = 1 << (BITS-1);
-    if(num & msb){
+    if (num & 8000000){
         printf("Set");
     }
     else{
