@@ -1,26 +1,34 @@
-# include <stdio.h>
-int main(){
-    char ch;
-    int num1,num2;
-
-    scanf("%d%d%c", &num1, &num2, &ch);
-
-    switch (ch){
-        case '+': printf("%d",num1+num2);
+#include <stdio.h>
+int main() {
+    int a, b;
+    char c;
+    int d; 
+    scanf("%d %d", &a, &b);
+    scanf(" %c", &c);
+    switch (c) {
+        case '+':
+            d = a + b;
+            printf("%d", d);
             break;
-        case '-': printf("%d",num1-num2);
-            break;
-        case '*': printf("%d",num1*num2);
+        case '-':
+            d = a - b;
+            printf("%d", d);
             break;
         case '/':
-        if(num2 == 0){
-            printf("error");
-        } 
-        else{
-            printf("%d",num1/num2);
-        }
+            if (b == 0) {
+                printf("error");
+            } else {
+                d = (float)a / b;
+                printf("%d", d);
+            }
             break;
-        default : printf("invalid");
+        case '*':
+            d = a * b;
+            printf("%d", d);
+            break;
+        default:
+            printf("Invalid operator");
     }
+
     return 0;
 }
