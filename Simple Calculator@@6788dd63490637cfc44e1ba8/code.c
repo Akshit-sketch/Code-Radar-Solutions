@@ -7,9 +7,13 @@ int main(){
 
     switch (ch){
         case '+': printf("%d",num1+num2);
+            break;
         case '-': printf("%d",num1-num2);
+            break;
         case '*': printf("%d",num1*num2);
+            break;
         case '/': printf("%d",num1/num2);
+            break;
     }
     return 0;
 }
