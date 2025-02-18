@@ -20,6 +20,7 @@ int main(){
             printf("%d",num1/num2);
         }
             break;
+        default : printf("invalid");
     }
     return 0;
 }
