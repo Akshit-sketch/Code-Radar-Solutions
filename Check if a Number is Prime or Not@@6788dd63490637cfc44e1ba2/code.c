@@ -4,11 +4,14 @@ int main(){
     scanf("%d",&num);
 
     for (int i = 1; i <= num;i++){
-        if(i%num == 0){
+        if(i % num == 0){
             count+=1;
         }
     }
     if(count == 2){
+        printf("Prime");
+    }
+    else if(num == 2){
         printf("Prime");
     }
     else{
