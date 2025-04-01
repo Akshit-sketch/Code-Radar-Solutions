@@ -6,7 +6,7 @@ int main(){
     for(int i = 1 ; i<= n ; i++){
         int Alph = 65;
         for(int j = 1 ; j <= i ; j++){
-            printf("%c",Alph);
+            printf("%c ",Alph);
             Alph++;
         }
         printf("\n");
